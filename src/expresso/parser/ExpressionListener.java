@@ -1,4 +1,4 @@
-// Generated from Expression.g4 by ANTLR 4.5
+// Generated from src/expresso/parser/Expression.g4 by ANTLR 4.5
 
 package expresso.parser;
 
@@ -20,4 +20,24 @@ public interface ExpressionListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitLine(ExpressionParser.LineContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link ExpressionParser#token_line}.
+	 * @param ctx the parse tree
+	 */
+	void enterToken_line(ExpressionParser.Token_lineContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link ExpressionParser#token_line}.
+	 * @param ctx the parse tree
+	 */
+	void exitToken_line(ExpressionParser.Token_lineContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link ExpressionParser#non_empty}.
+	 * @param ctx the parse tree
+	 */
+	void enterNon_empty(ExpressionParser.Non_emptyContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link ExpressionParser#non_empty}.
+	 * @param ctx the parse tree
+	 */
+	void exitNon_empty(ExpressionParser.Non_emptyContext ctx);
 }

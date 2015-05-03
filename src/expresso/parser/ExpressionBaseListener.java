@@ -1,4 +1,4 @@
-// Generated from Expression.g4 by ANTLR 4.5
+// Generated from src/expresso/parser/Expression.g4 by ANTLR 4.5
 
 package expresso.parser;
 
@@ -26,6 +26,30 @@ public class ExpressionBaseListener implements ExpressionListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitLine(ExpressionParser.LineContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterToken_line(ExpressionParser.Token_lineContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitToken_line(ExpressionParser.Token_lineContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterNon_empty(ExpressionParser.Non_emptyContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitNon_empty(ExpressionParser.Non_emptyContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
